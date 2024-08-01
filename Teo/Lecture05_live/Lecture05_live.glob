@@ -1,0 +1,169 @@
+DIGEST 31af9a6f9f2434ca122e70cc9379dc91
+FLecture5.Lecture05_live
+R32:35 Lecture5.Maps <> <> lib
+R53:73 Coq.Unicode.Utf8_core <> <> lib
+R91:100 Coq.Strings.String <> string_dec def
+not 83:83 <> :::x_'=?'_x
+abbrev 113:115 <> var
+R120:125 Coq.Strings.String <> string ind
+def 139:147 <> valuation
+R152:162 Lecture5.Maps <> partial_map def
+R164:166 Coq.Init.Datatypes <> nat ind
+def 178:179 <> m1
+R187:191 Lecture5.Maps <> :::x_'|->'_x not
+R203:204 Lecture5.Lecture05_live <> m1 ex
+def 220:221 <> m2
+R229:233 Lecture5.Maps <> :::x_'|->'_x_';'_x not
+R235:237 Lecture5.Maps <> :::x_'|->'_x_';'_x not
+R238:239 Lecture5.Lecture05_live <> m1 ex
+R250:251 Lecture5.Lecture05_live <> m2 ex
+def 267:268 <> m3
+R276:280 Lecture5.Maps <> :::x_'|->'_x_';'_x not
+R282:284 Lecture5.Maps <> :::x_'|->'_x_';'_x not
+R285:286 Lecture5.Lecture05_live <> m2 ex
+R297:298 Lecture5.Lecture05_live <> m3 ex
+ind 316:320 <> arith
+constr 332:336 <> Const
+constr 349:351 <> Var
+constr 364:367 <> Plus
+constr 386:390 <> Minus
+constr 409:413 <> Times
+R342:344 Coq.Init.Datatypes <> nat ind
+binder 339:339 <> n:3
+R357:359 Lecture5.Lecture05_live <> var abbrev
+binder 354:354 <> x:4
+R377:381 Lecture5.Lecture05_live <> arith:1 ind
+binder 370:371 <> e1:5
+binder 373:374 <> e2:6
+R400:404 Lecture5.Lecture05_live <> arith:1 ind
+binder 393:394 <> e1:7
+binder 396:397 <> e2:8
+R423:427 Lecture5.Lecture05_live <> arith:1 ind
+binder 416:417 <> e1:9
+binder 419:420 <> e2:10
+def 440:442 <> ex1
+R447:451 Lecture5.Lecture05_live <> Const constr
+def 465:467 <> ex2
+R472:475 Lecture5.Lecture05_live <> Plus constr
+R478:480 Lecture5.Lecture05_live <> Var constr
+R488:492 Lecture5.Lecture05_live <> Times constr
+R495:497 Lecture5.Lecture05_live <> Var constr
+R505:509 Lecture5.Lecture05_live <> Const constr
+def 527:532 <> interp
+R538:542 Lecture5.Lecture05_live <> arith ind
+binder 535:535 <> e:11
+R549:557 Lecture5.Lecture05_live <> valuation def
+binder 546:546 <> m:12
+R561:563 Coq.Init.Datatypes <> nat ind
+R576:576 Lecture5.Lecture05_live <> e:11 var
+R587:591 Lecture5.Lecture05_live <> Const constr
+R604:606 Lecture5.Lecture05_live <> Var constr
+R619:619 Lecture5.Lecture05_live <> m:12 var
+R643:646 Coq.Init.Datatypes <> None constr
+R668:671 Coq.Init.Datatypes <> Some constr
+R701:704 Lecture5.Lecture05_live <> Plus constr
+R726:728 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R715:720 Lecture5.Lecture05_live <> interp:13 def
+R725:725 Lecture5.Lecture05_live <> m:12 var
+R729:734 Lecture5.Lecture05_live <> interp:13 def
+R739:739 Lecture5.Lecture05_live <> m:12 var
+R745:749 Lecture5.Lecture05_live <> Minus constr
+R771:773 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R760:765 Lecture5.Lecture05_live <> interp:13 def
+R770:770 Lecture5.Lecture05_live <> m:12 var
+R774:779 Lecture5.Lecture05_live <> interp:13 def
+R784:784 Lecture5.Lecture05_live <> m:12 var
+R790:794 Lecture5.Lecture05_live <> Times constr
+R816:818 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R805:810 Lecture5.Lecture05_live <> interp:13 def
+R815:815 Lecture5.Lecture05_live <> m:12 var
+R819:824 Lecture5.Lecture05_live <> interp:13 def
+R829:829 Lecture5.Lecture05_live <> m:12 var
+def 850:859 <> valuation0
+R862:870 Lecture5.Lecture05_live <> valuation def
+R878:882 Lecture5.Maps <> :::x_'|->'_x_';'_x not
+R885:886 Lecture5.Maps <> :::x_'|->'_x_';'_x not
+R890:894 Lecture5.Maps <> :::x_'|->'_x not
+R907:912 Lecture5.Lecture05_live <> interp def
+R914:916 Lecture5.Lecture05_live <> ex1 ex
+R918:927 Lecture5.Lecture05_live <> valuation0 def
+R938:943 Lecture5.Lecture05_live <> interp def
+R945:947 Lecture5.Lecture05_live <> ex2 ex
+R949:958 Lecture5.Lecture05_live <> valuation0 def
+def 971:980 <> substitute
+R991:995 Lecture5.Lecture05_live <> arith ind
+binder 983:988 <> inThis:15
+R1012:1014 Lecture5.Lecture05_live <> var abbrev
+binder 999:1009 <> replaceThis:16
+R1028:1032 Lecture5.Lecture05_live <> arith ind
+binder 1018:1025 <> withThis:17
+R1036:1040 Lecture5.Lecture05_live <> arith ind
+R1054:1059 Lecture5.Lecture05_live <> inThis:15 var
+R1070:1074 Lecture5.Lecture05_live <> Const constr
+R1081:1086 Lecture5.Lecture05_live <> inThis:15 var
+R1092:1094 Lecture5.Lecture05_live <> Var constr
+R1105:1108 Lecture5.Lecture05_live <> :::x_'=?'_x not
+R1109:1119 Lecture5.Lecture05_live <> replaceThis:16 var
+R1140:1142 Lecture5.Lecture05_live <> Var constr
+R1126:1133 Lecture5.Lecture05_live <> withThis:17 var
+R1150:1153 Lecture5.Lecture05_live <> Plus constr
+R1164:1167 Lecture5.Lecture05_live <> Plus constr
+R1170:1179 Lecture5.Lecture05_live <> substitute:18 def
+R1196:1203 Lecture5.Lecture05_live <> withThis:17 var
+R1184:1194 Lecture5.Lecture05_live <> replaceThis:16 var
+R1207:1216 Lecture5.Lecture05_live <> substitute:18 def
+R1233:1240 Lecture5.Lecture05_live <> withThis:17 var
+R1221:1231 Lecture5.Lecture05_live <> replaceThis:16 var
+R1247:1251 Lecture5.Lecture05_live <> Minus constr
+R1262:1266 Lecture5.Lecture05_live <> Minus constr
+R1269:1278 Lecture5.Lecture05_live <> substitute:18 def
+R1295:1302 Lecture5.Lecture05_live <> withThis:17 var
+R1283:1293 Lecture5.Lecture05_live <> replaceThis:16 var
+R1306:1315 Lecture5.Lecture05_live <> substitute:18 def
+R1332:1339 Lecture5.Lecture05_live <> withThis:17 var
+R1320:1330 Lecture5.Lecture05_live <> replaceThis:16 var
+R1346:1350 Lecture5.Lecture05_live <> Times constr
+R1361:1365 Lecture5.Lecture05_live <> Times constr
+R1368:1377 Lecture5.Lecture05_live <> substitute:18 def
+R1394:1401 Lecture5.Lecture05_live <> withThis:17 var
+R1382:1392 Lecture5.Lecture05_live <> replaceThis:16 var
+R1405:1414 Lecture5.Lecture05_live <> substitute:18 def
+R1431:1438 Lecture5.Lecture05_live <> withThis:17 var
+R1419:1429 Lecture5.Lecture05_live <> replaceThis:16 var
+prf 1457:1469 <> substitute_ok
+R1472:1475 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R1505:1509 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 1476:1476 <> v:20
+binder 1478:1488 <> replaceThis:21
+binder 1490:1497 <> withThis:22
+binder 1499:1504 <> inThis:23
+R1559:1564 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1510:1515 Lecture5.Lecture05_live <> interp def
+R1518:1527 Lecture5.Lecture05_live <> substitute def
+R1529:1534 Lecture5.Lecture05_live <> inThis:23 var
+R1536:1546 Lecture5.Lecture05_live <> replaceThis:21 var
+R1548:1555 Lecture5.Lecture05_live <> withThis:22 var
+R1558:1558 Lecture5.Lecture05_live <> v:20 var
+R1565:1570 Lecture5.Lecture05_live <> interp def
+R1572:1577 Lecture5.Lecture05_live <> inThis:23 var
+R1591:1595 Lecture5.Maps <> :::x_'|->'_x_';'_x not
+R1613:1615 Lecture5.Maps <> :::x_'|->'_x_';'_x not
+R1616:1616 Lecture5.Lecture05_live <> v:20 var
+R1580:1590 Lecture5.Lecture05_live <> replaceThis:21 var
+R1596:1601 Lecture5.Lecture05_live <> interp def
+R1603:1610 Lecture5.Lecture05_live <> withThis:22 var
+R1612:1612 Lecture5.Lecture05_live <> v:20 var
+R1712:1715 Lecture5.Lecture05_live <> :::x_'=?'_x not
+R1712:1715 Lecture5.Lecture05_live <> :::x_'=?'_x not
+R1758:1766 Lecture5.Maps <> update_eq thm
+R1758:1766 Lecture5.Maps <> update_eq thm
+R1758:1766 Lecture5.Maps <> update_eq thm
+R1799:1808 Lecture5.Maps <> update_neq thm
+R1799:1808 Lecture5.Maps <> update_neq thm
+R1799:1808 Lecture5.Maps <> update_neq thm
+R1799:1808 Lecture5.Maps <> update_neq thm
+R1863:1866 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1857:1861 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R1868:1872 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R1883:1892 Coq.Init.Logic <> not_eq_sym thm
+R1883:1892 Coq.Init.Logic <> not_eq_sym thm

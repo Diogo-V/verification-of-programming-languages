@@ -1,0 +1,11 @@
+DIGEST 73d69de325872498f5234078ece729d6
+FLecture5.Lecture05_live
+R32:35 Lecture5.Maps <> <> lib
+R53:73 Coq.Unicode.Utf8_core <> <> lib
+R91:100 Coq.Strings.String <> string_dec def
+not 83:83 <> :::x_'=?'_x
+abbrev 113:115 <> var
+R120:125 Coq.Strings.String <> string ind
+def 139:147 <> valuation
+R152:162 Lecture5.Maps <> partial_map def
+R164:166 Coq.Init.Datatypes <> nat ind
